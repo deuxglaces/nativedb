@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nativedb"
+version = "0.1.1"
+authors = [
+  { name="deuxglaces", email="dev@deuxglaces.com" },
+]
+description = "Create MongoDB models like creating a dataclass"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pymongo>=4.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/deuxglaces/nativedb"
+Issues = "https://github.com/deuxglaces/nativedb/issues"
